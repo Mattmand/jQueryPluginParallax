@@ -1,0 +1,163 @@
+<!doctype html>
+<!-- [if lt IE 7]><html dir="ltr" lang="nl-be" class="no-js lt-ie7"><![endif]-->
+<!-- [if lt IE 8]><html dir="ltr" lang="nl-be" class="no-js lt-ie8"><![endif]-->
+<!-- [if lt IE 9]><html dir="ltr" lang="nl-be" class="no-js lt-ie9"><![endif]-->
+<!-- [if lt IE 10]><html dir="ltr" lang="nl-be" class="no-js lt-ie10"><![endif]-->
+<!-- [if (gt IE 9)|!(IE)]><!--><html dir="ltr" lang="nl-be" class="no-js" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+<head>
+    <!-- CHARACTER ENCODING -->
+    <meta charset="UTF-8">
+    <!-- LATEST VERSION OF RENDERING ENGINE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- MOST IMPORTANT SEO FRIENDLY TAG -->
+    <title>DrDynscript HTML5 Template | NMDAD I | HTML5 & CSS3 Template for the mass</title>
+    <!-- OTHER IMPORTANT SEO TAGS -->
+    <meta name="description" content="Drdynscript wil graag met jullie zijn app en kennis delen omtrent HTML5, CSS3 en JavaScript.">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript, javaScript, jQuery, Canvas, Geeks">
+    <meta name="author" content="Arteveldehogeschool | Bachelor in de Grafische en Digitale Media | DrDynscript">
+    <meta name="copyright" content="Copyright 2003-13 Arteveldehogeschool. Alle rechten voorbehouden.">
+    <!-- HUMANS = AUTHORS TEXT FILE -->
+    <link type="text/plain" rel="author" href="humans.txt">
+    <!-- FAVICON AND TOUCHICONS ex: http://demosthenes.info/blog/467/Creating-MultiResolution-Favicons-For-Web-Pages-With-GIMP -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="content/icons/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="content/icons/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="content/icons/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="content/icons/apple-touch-icon-57-precomposed.png">
+    <link href="content/icons/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="content/icons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- MOBILE VIEWPORT -->
+    <meta name="viewport" content="width=device-width">
+    <!-- LINK NORMALIZE CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <!-- LINK GLOBAL STYLES -->
+    <link rel="stylesheet" href="styles/global.css">
+    <!-- LINK MY OWN STYLESHEET -->
+    <link rel="stylesheet" href="styles/app.css">
+    <!-- MODERNIZR: NEW HTML5 ELEMENTS + FEATURE DETECTION -->
+    <script src="components/modernizr/modernizr.custom.js"></script>
+</head>
+<body>
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+    <!-- <div class="wrapper" id="header-wrapper">
+        <header class="container" id="header" role="header">
+            <div class="row">
+                <nav class="col col-sc1-12" id="main-navigation">
+                    <span class="menu-toggle">Menu Toggle</span>
+                    <ul>
+                        <li class="selected"><a href="#" title="">Home</a></li>
+                        <li><a href="#" title="">Portfolio</a></li>
+                        <li><a href="#" title="">Blog</a></li>
+                        <li><a href="#" title="">Services</a></li>
+                        <li><a href="#" title="">About</a></li>
+                        <li><a href="#" title="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div> -->
+    <div class="wrapper" id="main-wrapper">
+        <div class="container" id="main-container">
+            <main id="main" role="main">
+			
+				<section id="container1">
+				<article>
+					<div class="float-left" class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+						<h1>Welcome to this jQuery Parallax plugin</h1>
+						<p>This section has a background that moves slightly slower than the user scrolls. This is achieved by changing the top position of the background for every pixel the page is scrolled.</p>
+					</div>
+				</article>
+				</section>
+				<section id="container2">
+					<article><div class="bg"></div>
+						<div class="float-right" class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+							<h2>Multiple Backgrounds</h2>
+							<p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
+						</div>
+                    </article>
+				</section>
+				<section id="container3"><div class="bg"></div>
+					<article>
+						<div class="float-right" class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+							<h2>What Happens When JavaScript is Disabled?</h2>
+							<p>The user gets a slap! Actually, all that jQuery does is moves the backgrounds relative to the position of the scrollbar. Without it, the backgrounds simply stay put and the user would never know they are missing out on the awesome! CSS2 does a good enough job to still make the effect look cool.</p>
+						</div>
+					</article>
+				</section>
+				<section id="container4"><div class="bg"></div>
+
+				</section>
+				<section id="container5"><div class="bg"></div>
+
+				</section>
+                <section id="container6">
+
+                </section>
+
+				<div class="row">
+                    <article class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+                        ELLOW
+                    </article>
+                    <article class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+                        ELLOW
+                    </article>
+                    <article class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+                        ELLOW
+                    </article>
+                    <article class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+                        ELLOW
+                    </article>
+                    <article class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+                        ELLOW
+                    </article>
+                    <article class="col col-sc1-12 col-sc2-6 col-sc3-4 col-sc4-3 col-sc5-3">
+                        ELLOW
+                    </article>
+                </div>
+        </div>
+    </div>
+    <div class="wrapper" id="footer-wrapper">
+        <footer class="container" id="footer" role="footer">
+            FOOTER
+        </footer>
+    </div>
+    <span class="scrolltotop">Scroll To Top</span>
+	<!-- BOTTOM SCRIPTS -->
+    <!-- JQUERY CDN FIRST OTHERWISE LOCAL FALLBACK -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.0.3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="components/jquery/jquery-2.0.3.min.js">\x3C/script>')</script>
+    <!-- CUSTOM JAVASCRIPT FILES -->
+    <script src="scripts/app.js"></script>
+
+		<script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+        <script type="text/javascript" src="scripts/vertical-parallax.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav').localScroll();
+            })
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav').localScroll(800);
+
+                //.parallax(xPosition, speedFactor, outerHeight) options:
+                //xPosition - Horizontal position of the element
+                //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+                //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+                $('#container1').parallax("50%", 0.1);
+                $('#container2').parallax("50%", 0.1);
+                $('.bg').parallax("40%", 0.1);
+                $('#container3').parallax("50%", 0.3);
+                $('#container4').parallax("50%", 0.3);
+                $('#container5').parallax("50%", 0.3);
+                $('#container6').parallax("50%", 0.3);
+
+            })
+        </script>
+</body>
+</html>
