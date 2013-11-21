@@ -1,21 +1,23 @@
-/*
-Plugin: jQuery Parallax
-Version 1.1.3
-Author: Ian Lunn
-Twitter: @IanLunn
-Author URL: http://www.ianlunn.co.uk/
-Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
-
-License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
-*/
+/*jQuery plugin Parallax
+ -----------------------------------
+ * Course: WEBDAD-I
+ * Programmed by: Matthias Mandiau
+ * Last updated: 20/11/2013
+ -----------------------------------
+ * app.css
+ * In opdracht van Arteveldehogeschool
+ * 2013-2014
+ -----------------------------------
+ */
 
 @charset "utf-8";
 /* CSS Document */
 
 body{
     margin: 0;
-    min-width: 980px;
+    min-width: 100%;
     padding: 0;
+    overflow-x:hidden;
 
 }
 
@@ -68,22 +70,9 @@ h2{
     text-align: center;
 }
 
-#nav{
-    list-style: none;
-    position: fixed;
-    right: 20px;
-}
-
-#nav li{
-    margin: 0 0 15px 0;
-}
-
-#header, #container1, #container2, #container3, #container4, #container5{
-    width: 100%;
-}
 
 #container1{
-    background:url(images/earth.jpg) 50% 0 no-repeat fixed;
+    background:url(images/1.jpg) 50% 0 no-repeat fixed;
     background-size:cover;
     color: white;
     height: 600px;
@@ -92,7 +81,7 @@ h2{
 }
 
 #container2{
-    background:url(images/ruimte.jpg) 50% 0 no-repeat fixed;
+    background:  url(images/2.jpg) 50% 0 no-repeat fixed;
     background-size:cover;
     color: white;
     height: 800px;
@@ -100,12 +89,12 @@ h2{
     padding: 0;
 }
 #container2 .bg{
-    background: url(images/balloon1.png) 0 50% no-repeat fixed;
+    background: url(images/balloon1.png) 50% 0 no-repeat fixed;
     height: 800px;
     margin-left: 10px;
     padding: 0;
     position: absolute;
-    width: 600px;
+    width: 900px;
     z-index: 200;
     transition: background 0.4s;
     -webkit-transition: background 0.4s;
@@ -113,10 +102,11 @@ h2{
     -o-transition: background 0.4s;
 }
 
+
+
 #container3{
-    background: url(images/darksky.jpg) 50% 0 no-repeat fixed;
+    background: url(images/3.jpg) 50% 0 no-repeat fixed;
     background-size:cover;
-    background-size: cover;
     color: white;
     height: 600px;
     margin: 0 auto;
@@ -125,7 +115,7 @@ h2{
 }
 
 #container3 .bg{
-    background: url(images/balloon1.png) 40% 50% no-repeat fixed;
+    background: url(images/balloon1.png) 50% 0 no-repeat fixed;
     height: 600px;
     margin-left: 10px;
     padding: 0;
@@ -137,8 +127,9 @@ h2{
     -moz-transition: background 0.4s;
     -o-transition: background 0.4s;
 }
+
 #container4{
-    background: url(images/clouds-sun-rays5.jpg) 50% 0 no-repeat fixed;
+    background: url(images/4.jpg) 50% 0 no-repeat fixed;
     background-size:cover;
     color: white;
     height: 600px;
@@ -148,38 +139,58 @@ h2{
 }
 
 #container4 .bg{
-    background: url(images/balloon1.png) 50% 50% no-repeat fixed ;
+    background: url(images/balloon1.png) 50% 0 no-repeat fixed ;
     height: 600px;
     margin-left: 10px;
     padding: 0;
     position: absolute;
-    width: 900px;
+    width: 1200px;
     z-index: 200;
     transition: background 0.4s;
     -webkit-transition: background 0.4s;
     -moz-transition: background 0.4s;
     -o-transition: background 0.4s;
 }
+#container4 .bg2{
+    background: url(images/smoke.png) 0 0 repeat fixed;
+    background-size: cover;
+    height: 600px;
+    margin-left: 0px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 200;
+}
 
 #container5{
-    background: url(images/land.jpg) 50% 0 no-repeat fixed;
+    background: url(images/5.jpg) 50% 0 no-repeat fixed;
     background-size: cover;
     color: white;
     height: 600px;
     padding: 0px 0 0 0;
 }
 #container5 .bg{
-    background: url(images/balloon1.png) 40% 00% no-repeat fixed;
+    background: url(images/balloon1.png) 50% 0 no-repeat fixed;
     height: 600px;
     margin-left: 10px;
     padding: 0;
     position: absolute;
-    width: 900px;
+    width: 1200px;
     z-index: 200;
     transition: background 0.4s;
     -webkit-transition: background 0.4s;
     -moz-transition: background 0.4s;
     -o-transition: background 0.4s;
+}
+#container5 .bg2{
+    background: url(images/smoke.png) 0 0 repeat fixed;
+    background-size: cover;
+    height: 600px;
+    margin-left: 0px;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 200;
 }
 
 #container6 {
@@ -190,10 +201,16 @@ h2{
     padding: 0px 0 0 0;
 }
 
+.gif {
+    background-color:#000000;
+    float: right;
+    padding: 30px;
+    opacity: 0.9;
 
+}
 #container7{
     background: #ccc;
-    height: 400px;
+    height: 460px;
     margin: 0 auto;
     padding: 40px 0 0 0;
 }
